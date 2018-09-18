@@ -1,5 +1,17 @@
-#background {
-    background-image: url('/Users/nick/Repositories/StumpfBalloons/assets/images/fabric_plaid.png');
+.background {
+    background-image: url('/Users/nick/Repositories/StumpfBalloons/assets/images/little_pluses.png');
+}
+
+.globalFont {
+    font-family:'M PLUS Rounded 1c', sans-serif;
+}
+
+.bg-Custom {
+    background-color: black;
+}
+
+.largeFont {
+    font-size: 18px;
 }
 
 .carousel-item {

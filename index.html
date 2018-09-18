@@ -14,50 +14,50 @@
 
     <link rel="stylesheet" href="assets/css/style.css">
 
+    <!-- Google Fonts -->
+
+    <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c:700" rel="stylesheet">
+
     <title>Stumpf Balloons & Banners</title>
 </head>
 
-<body class="container-fluid bg-light">
+<body class="container-fluid background globalFont">
 
-    <!-- logo -->
-    <div class="row mx-auto bg-light p-4">
-        <div class="col-md-4 pagination justify-content-center mt-4 text-secondary">
-            <h1 class="border border-secondary p-2">Stumpf Balloons</h1>
+    <!-- navigation -->
+
+    <div class="row bg-light sticky-top">
+        <div class="col-lg-2 pagination justify-content-left">
+            <a href="#">
+                <img class="mt-2 mr-4 mb-2 ml-4" src="https://nkenon89.github.io/StumpfBalloons/assets/images/StumpfBalloonsLogo.jpg"
+                    alt="stumpf balloons logo" style="width:200px;height:auto;border:0;">
+            </a>
         </div>
+        <nav class="col-lg-10 navbar navbar-expand-lg navbar-light text-uppercase pagination justify-content-left">
+            <a class="nav-link text-white mr-4 bg-Custom" href="#">place an order</a>
+            <a class="nav-link text-white mr-4 bg-Custom" href="#">get a quote</a>
+            <a class="nav-link text-white mr-4 bg-Custom" href="#">browse used listings</a>
+            <a class="nav-link text-white mr-4 bg-Custom" href="#">faq</a>
+            <a class="nav-link text-white mr-4 bg-Custom" href="#">testimonials</a>
 
-        <!-- navbar -->
+            <!-- Searchbar -->
 
-        <div class="col-md-4 pagination justify-content-center">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light mt-4">
-                <a class="nav-link text-secondary border border-secondary mr-4" href="#">Home</a>
-                <a class="nav-link text-secondary border border-secondary mr-4" href="#">About</a>
-                <a class="nav-link text-secondary border border-secondary mr-4" href="#">Gallery</a>
-                <a class="nav-link text-secondary border border-secondary mr-4" href="#">Contact</a>
-            </nav>
-        </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <!-- Searchbar -->
-
-        <div class="col-md-4 pagination justify-content-center">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light mt-4">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <form class="form-inline my-2 my-lg-0">
-                        <input id="searchBox" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Search</button>
-                    </form>
-                </div>
-            </nav>
-        </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <form class="form-inline my-2 my-lg-0">
+                    <input id="searchBox" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
     </div>
 
     <!-- Carousel -->
 
-    <div id="carouselExampleIndicators" class="carousel slide mt-4 border border-secondary" data-ride="carousel">
+    <div id="carouselExampleIndicators" class="carousel slide mt-3 border border border-light rounded" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -65,24 +65,27 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="d-block w-100" src="https://nkenon89.github.io/StumpfBalloons/assets/images/carousel1.jpg">
-                    alt="First slide">
+                <img class="d-block w-100" src="/Users/nick/Repositories/StumpfBalloons/assets/images/carousel5.jpg">
+                alt="First slide">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Welcome to Stumpf Balloons & Banners!</h5>
+                    <h1>Welcome to the Stumpf Balloons web site and online catalog!</h1>
                 </div>
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="https://nkenon89.github.io/StumpfBalloons/assets/images/carousel2.jpg">
-                    alt="Second slide">
+                <img class="d-block w-100" src="/Users/nick/Repositories/StumpfBalloons/assets/images/carousel2.jpg">
+                alt="Second slide">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5></h5>
+                    <h2>Stumpf Balloons offers an extensive assortment of products for Hot Air Balloonists, and one of
+                            the most comprehensive selections of hot air ballooning equipment and services available
+                            anywhere in the world.</h2>
                 </div>
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="https://nkenon89.github.io/StumpfBalloons/assets/images/carousel3.jpg">
-                    alt="Third slide">
+                <img class="d-block w-100" src="/Users/nick/Repositories/StumpfBalloons/assets/images/carousel3.jpg">
+                alt="Third slide">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5></h5>
+                    <h2>Even if you're not a balloonist, you will still see many unique and
+                            hard-to-find items throughout our site.</h2>
                 </div>
             </div>
         </div>
@@ -98,14 +101,18 @@
 
     <!-- card deck row 1 -->
 
+    <!-- banners -->
+
     <div class="card-deck mt-4 text-center">
         <div class="card">
             <div class="card-header">Banners</div>
             <img class="card-img-top" src="https://nkenon89.github.io/StumpfBalloons/assets/images/banners.jpg" alt="Card image cap">
             <div class="card-body">
                 <p class="card-text">Custom banner services for all your advertising needs.</p>
-                <a href="#" class="btn btn-secondary">More Info</a>
+                <a href="/Users/nick/Repositories/StumpfBalloons/html/banners.html" class="btn btn-dark">More Info</a>
             </div>
+
+            <!-- catalog -->
 
         </div>
         <div class="card text-center">
@@ -113,8 +120,10 @@
             <img class="card-img-top" src="https://nkenon89.github.io/StumpfBalloons/assets/images/catalogue.jpeg" alt="Card image cap">
             <div class="card-body">
                 <p class="card-text">Catalog of all hotair balloon products.</p>
-                <a href="#" class="btn btn-secondary">More Info</a>
+                <a href="#" class="btn btn-dark">More Info</a>
             </div>
+
+            <!-- Lightweights -->
 
         </div>
         <div class="card text-center">
@@ -122,12 +131,14 @@
             <img class="card-img-top" src="https://nkenon89.github.io/StumpfBalloons/assets/images/cardDeck2.jpeg" alt="Card image cap">
             <div class="card-body">
                 <p class="card-text">Custom built super lightweight balloons.</p>
-                <a href="#" class="btn btn-secondary">More Info</a>
+                <a href="#" class="btn btn-dark">More Info</a>
             </div>
         </div>
     </div>
 
     <!-- card deck row 2 -->
+
+    <!-- repair station -->
 
     <div class="card-deck mt-4 text-center">
         <div class="card">
@@ -136,8 +147,10 @@
             <div class="card-body">
                 <p class="card-text">Balloon repair station - Servicing the east coast ballooning community and beyond
                     for more than 30 years.</p>
-                <a href="#" class="btn btn-secondary">More Info</a>
+                <a href="#" class="btn btn-dark">More Info</a>
             </div>
+
+            <!-- cold airs -->
 
         </div>
         <div class="card text-center">
@@ -145,34 +158,27 @@
             <img class="card-img-top" src="https://nkenon89.github.io/StumpfBalloons/assets/images/cardDeck3.jpg" alt="Card image cap">
             <div class="card-body">
                 <p class="card-text">Cold air inflatable balloons and services.</p>
-                <a href="#" class="btn btn-secondary">More Info</a>
+                <a href="#" class="btn btn-dark">More Info</a>
             </div>
+
+            <!-- used equipment -->
 
         </div>
         <div class="card text-center">
             <div class="card-header">Used Equipment Listings</div>
-            <img class="card-img-top" src="https://nkenon89.github.io/StumpfBalloons/assets/images/usedListings.png" alt="Card image cap">
+            <img class="card-img-top" src="https://nkenon89.github.io/StumpfBalloons/assets/images/usedListings.png"
+                alt="Card image cap">
             <div class="card-body">
                 <p class="card-text">Community listings of used equipment. Find some great deals!</p>
-                <a href="#" class="btn btn-secondary">More Info</a>
+                <a href="#" class="btn btn-dark">More Info</a>
             </div>
-        </div>
-    </div>
-
-    <!-- featured -->
-
-    <div class="card text-center mt-4">
-
-        <div class="card-body">
-            <h5 class="card-title">Already Know What You Want?</h5>
-            <a href="#" class="btn btn-secondary">Place An Order</a>
         </div>
     </div>
 
     <!-- footer -->
 
-    <div class="row mx-auto mt-4 pagination justify-content-center">
-        <p>&copy Stumpf Balloons & Banners 2018</p>
+    <div class="row mt-4 p-2 pagination justify-content-center bg-light">
+        <h5>&copy Stumpf Balloons & Banners 2018</h5>
     </div>
 
     <!-- Optional JavaScript -->
