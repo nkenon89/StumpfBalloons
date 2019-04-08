@@ -21,3 +21,11 @@
 #searchBox {
     width: 300px;
 }
+
+#justFuckingCenter {
+    margin: 0 auto;
+}
+
+.hidden {
+    display: none;
+}
